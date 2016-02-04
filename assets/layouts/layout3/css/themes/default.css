@@ -361,13 +361,13 @@ Page Footer
       left: 0;
       z-index: 9995; } }
 
-@media (max-width: 767px) {
-  /* 767px */
+@media (max-width: 991px) {
+  /* 991px */
   .page-header .page-header-menu {
     background: #f5f5f5;
     /* Horizontal mega menu */ }
     .page-header .page-header-menu .hor-menu .navbar-nav {
-      background: #c6c6c6 !important;
+      background: #c6c6c6;
       /* Mega menu content */
       /* Classic menu */ }
       .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu {
