@@ -624,7 +624,7 @@ Page Header
             top: 11px;
             font-family: FontAwesome;
             height: auto;
-            content: "\f104";
+            content: "\f105";
             font-weight: 300; }
           .page-header .page-header-menu .hor-menu .navbar-nav li.opened > a > .arrow:after {
             content: "\f107";
