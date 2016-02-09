@@ -40,8 +40,10 @@
         <title>CWRU | Main Template</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
-        <meta content="" name="description" />
-        <meta content="" name="author" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
+        <![endif]-->
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href="https//fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -55,19 +57,21 @@
         <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
         <!-- END THEME GLOBAL STYLES -->
         <!-- BEGIN THEME LAYOUT STYLES -->
-        <link href="../assets/layouts/layout3/css/layout.min.css" rel="stylesheet" type="text/css" />
-        <link href="../assets/layouts/layout3/css/themes/default.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layout/css/theme/default.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/cwru/css/styles.min.css" rel="stylesheet" type="text/css" />
         <!-- END THEME LAYOUT STYLES -->
     </head>
     <!-- END HEAD -->
 
     <body class="page-container-bg-solid page-boxed page-header-menu-fixed">
-        <!-- BEGIN HEADER -->
-        <div class="page-header-print" aria-hidden="true">
+        <!-- BEGIN PRINT HEADER -->
+        <div class="visible-print-block" aria-hidden="true">
             <img src="../assets/cwru/img/logo-default-print.jpg" alt="logo" class="logo-default" aria-hidden="true">
         </div>
-        <div class="page-header">
+        <!-- END PRINT HEADER -->
+        <!-- BEGIN SITE HEADER -->
+        <header class="page-header">
             <!-- BEGIN HEADER TOP -->
             <div class="page-header-top">
                 <div class="container">
@@ -83,9 +87,7 @@
                     <!-- END RESPONSIVE MENU TOGGLER -->
                     <!-- BEGIN TOP NAVIGATION MENU -->
                     <div class="top-menu">
-                        <ul class="nav navbar-nav pull-right">
-
-                        </ul>
+                        <p class="pull-right font-white">LINKS GO HERE</p>
                     </div>
                     <!-- END TOP NAVIGATION MENU -->
                 </div>
@@ -94,20 +96,29 @@
                 <!-- BEGIN PAGE HEAD-->
                 <div class="page-head">
                     <div class="container">
+
+                        <div class="col-sm-6">
                         <!-- BEGIN PAGE TITLE -->
-                        <div class="page-title">
-                            <h1>School of Engineering
-                            </h1>
-                        </div>
+                        <a href="javascript:;">
+                            <div class="page-title">
+                                <h1>School of Engineering</h1>
+                            </div>
+                        </a>
                         <!-- END PAGE TITLE -->
+                        </div>
+                        <div class="col-sm-6">
+                        <p class="pull-right font-white">SEARCH GOES HERE</p>
+                        </div>
+
                     </div>
                     <div class="container">
-                        <!-- BEGIN PAGE TITLE -->
-                        <div class="page-title">
-                            <h1>Biochemical Engineering
-                            </h1>
-                        </div>
-                        <!-- END PAGE TITLE -->
+                        <!-- BEGIN SUBPAGE TITLE -->
+                        <a href="javascript:;" class="">
+                            <div class="page-title dept-title">
+                                <h2>Biomedical Engineering</h2>
+                            </div>
+                        </a>
+                        <!-- END SUBPAGE TITLE -->
                     </div>
                 </div>
                 <!-- END PAGE HEAD-->
@@ -117,7 +128,7 @@
                     <!-- BEGIN MEGA MENU -->
                     <div class="hor-menu">
                         <ul class="nav navbar-nav">
-                            <li class="menu-dropdown classic-menu-dropdown menu-dropdown-padding-fix menu-dropdown-l">
+                            <li class="menu-dropdown classic-menu-dropdown menu-dropdown-button menu-dropdown-l">
                                 <a href="javascript:;"> Home
                                 </a>
                             </li>
@@ -339,11 +350,109 @@
 
                                 </ul>
                             </li>
-                            <li class="menu-dropdown classic-menu-dropdown menu-dropdown-r menu-dropdown-r-dark menu-dropdown-padding-fix">
+                            <li class="menu-dropdown mega-menu-dropdown mega-menu-full menu-dropdown-l">
+                                <a href="javascript:;"> Wide
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="dropdown-menu" style="min-width: ">
+                                    <li>
+                                        <div class="mega-menu-content">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <ul class="mega-menu-submenu">
+                                                        <li>
+                                                            <h3>Components 1</h3>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_date_time_pickers.html"> Date & Time Pickers </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_color_pickers.html"> Color Pickers </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_select2.html"> Select2 Dropdowns </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_select.html"> Bootstrap Select </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_multi_select.html"> Multi Select </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <ul class="mega-menu-submenu">
+                                                        <li>
+                                                            <h3>Components 2</h3>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_select_splitter.html"> Select Splitter </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_typeahead.html"> Typeahead Autocomplete </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_tagsinput.html"> Bootstrap Tagsinput </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_switch.html"> Bootstrap Switch </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_maxlength.html"> Bootstrap Maxlength </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <ul class="mega-menu-submenu">
+                                                        <li>
+                                                            <h3>Components 3</h3>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_fileinput.html"> Bootstrap File Input </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_bootstrap_touchspin.html"> Bootstrap Touchspin </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_form_tools.html"> Form Widgets & Tools </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_context_menu.html"> Context Menu </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_editors.html"> Markdown & WYSIWYG Editors </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <ul class="mega-menu-submenu">
+                                                        <li>
+                                                            <h3>Components 4</h3>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_code_editors.html"> Code Editors </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_ion_sliders.html"> Ion Range Sliders </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_noui_sliders.html"> NoUI Range Sliders </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="components_knob_dials.html"> Knob Circle Dials </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-dropdown classic-menu-dropdown menu-dropdown-r menu-dropdown-button menu-dropdown-button-dark">
                                 <a href="javascript:;"> help.case.edu
                                 </a>
                             </li>
-                            <li class="menu-dropdown classic-menu-dropdown menu-dropdown-r menu-dropdown-padding-fix">
+                            <li class="menu-dropdown classic-menu-dropdown menu-dropdown-r menu-dropdown-button">
                                 <a href="javascript:;"> Click Me
                                 </a>
                             </li>
@@ -361,8 +470,6 @@
                                         <a href="fluid.html" class="nav-link  ">
                                             Fluid Layout </a>
                                     </li>
-
-
                                 </ul>
                             </li>
                         </ul>
@@ -371,8 +478,8 @@
                 </div>
             </div>
             <!-- END HEADER MENU -->
-        </div>
-        <!-- END HEADER -->
+        </header>
+        <!-- END SITE HEADER -->
         <!-- BEGIN CONTAINER -->
         <div class="page-container">
             <!-- BEGIN CONTENT -->
@@ -545,7 +652,7 @@
         <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
         <!-- END THEME GLOBAL SCRIPTS -->
         <!-- BEGIN THEME LAYOUT SCRIPTS -->
-        <script src="../assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
+        <script src="../assets/layout/scripts/layout.min.js" type="text/javascript"></script>
         <!-- END THEME LAYOUT SCRIPTS -->
     </body>
 
