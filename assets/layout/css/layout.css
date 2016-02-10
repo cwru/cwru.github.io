@@ -5,10 +5,6 @@
     background-color: #fff !important; }
   .page-header {
     display: none; }
-  .page-header-print {
-    display: block !important;
-    background: #ffffff;
-    background-color: #ffffff; }
   .theme-panel {
     display: none; }
   .hidden-print {
@@ -53,7 +49,6 @@ Page Header
   border: 0;
   padding: 0;
   box-shadow: none;
-  height: 265px;
   background-image: none;
   /* Header container */
   /* Fixed header */
@@ -460,8 +455,8 @@ Page Header
                     .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu li > a .label {
                       margin-left: 5px; }
           .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown.mega-menu-full .dropdown-menu {
-            left: 15px;
-            right: 15px; }
+            left: 0px;
+            right: 0px; }
         .page-header .page-header-menu .hor-menu .navbar-nav > li.menu-dropdown .dropdown-menu:after, .page-header .page-header-menu .hor-menu .navbar-nav > li.menu-dropdown .dropdown-menu:before {
           display: none !important; }
         .page-header .page-header-menu .hor-menu .navbar-nav > li > a {

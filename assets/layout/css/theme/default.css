@@ -114,12 +114,12 @@ Page Header
       .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-language:hover > .dropdown-toggle > .langname, .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-language.open > .dropdown-toggle > .langname {
         color: #7089a2; }
       .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu {
-        background: #cccccc;
+        background: gainsboro;
         border: 0; }
         .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu:after {
-          border-bottom-color: #cccccc; }
+          border-bottom-color: gainsboro; }
         .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu > li.external {
-          background: #c4c4c4; }
+          background: #d4d4d4; }
           .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu > li.external > h3 {
             color: white; }
           .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu > li.external > a:hover {
@@ -127,35 +127,35 @@ Page Header
         .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a,
         .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu .dropdown-menu-list > li a {
           color: #aaafb7;
-          border-bottom: 1px solid #dbdbdb !important; }
+          border-bottom: 1px solid #ebebeb !important; }
           .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a > i,
           .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu .dropdown-menu-list > li a > i {
             color: #6FA7D7; }
           .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a:hover,
           .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu .dropdown-menu-list > li a:hover {
-            background: #d6d6d6; }
+            background: #e6e6e6; }
         .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li a {
           border-bottom: 0 !important; }
         .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-dark .dropdown-menu.dropdown-menu-default > li.divider {
-          background: #dbdbdb; }
+          background: #ebebeb; }
       .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification.dropdown-dark .dropdown-menu .dropdown-menu-list > li > a .time {
-        background: #bfbfbf; }
+        background: #cfcfcf; }
       .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-notification.dropdown-dark .dropdown-menu .dropdown-menu-list > li > a:hover .time {
-        background: #b2b2b2; }
+        background: #c2c2c2; }
   .page-header .page-header-menu {
-    background: #e5e5e5;
+    background: #f5f5f5;
     /* Default Mega Menu */
     /* Light Mega Menu */
     /* Header seaech box */ }
     .page-header .page-header-menu.fixed {
-      box-shadow: 0px 0px 0px 0px rgba(229, 229, 229, 0.2); }
+      box-shadow: 0px 0px 0px 0px rgba(245, 245, 245, 0.2); }
     .page-header .page-header-menu .hor-menu .navbar-nav {
       /* Mega menu content */
       /* Classic menu */ }
       .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu {
         box-shadow: 5px 5px rgba(255, 255, 255, 0.2); }
         .page-header .page-header-menu .hor-menu .navbar-nav > li.mega-menu-dropdown > .dropdown-menu .mega-menu-content .mega-menu-submenu li > h3 {
-          color: #ced5de; }
+          color: #888888; }
       .page-header .page-header-menu .hor-menu .navbar-nav > li > a {
         color: #0a304e; }
         .page-header .page-header-menu .hor-menu .navbar-nav > li > a > i {
@@ -340,7 +340,7 @@ Page Footer
       background-color: #fff; }
 
 .page-footer {
-  background: #dbdbdb;
+  background: #ebebeb;
   color: white; }
 
 /* Scroll Top */
