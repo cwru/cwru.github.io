@@ -62,11 +62,6 @@ Page Header
   margin: 0px;
   font-weight: 200;
 }
-/***
-.page-container .page-content {
-  padding-top: 60px;
-}
-***/
 .page-header-menu .container {
     background: #e5e5e5;
     padding-left: 0px;
@@ -127,7 +122,7 @@ Page Header Menu Arrow
   font-weight: 300;
   text-shadow: none;
   position: absolute;
-  top: 20px;
+  top: 26px;
   right: 5px; 
 }
 /***
@@ -200,5 +195,19 @@ Mobile/Tablet Menu
   }
   .page-header .page-header-menu .hor-menu .navbar-nav>li.menu-dropdown-button-dark>a:hover {
     background-color: #c6c6c6 !important;
+  }
+}
+@media (max-width: 767px) {
+  .page-header .page-header-top {
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAA6CAIAAAAV/R+zAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDphMGJiMGEzYi00NmJlLTQ5ZDctODU0NS1lZjdkMjk4OWFkN2UiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTdGNTQ5RTVEMEZCMTFFNUE2RUY5REY2MTRBNzdGMEYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTdGNTQ5RTREMEZCMTFFNUE2RUY5REY2MTRBNzdGMEYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDphZWUyNWNiOS1mM2YwLTRiYWEtYTUzMS1hMGQ1MDZkOGEwOTAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6YTBiYjBhM2ItNDZiZS00OWQ3LTg1NDUtZWY3ZDI5ODlhZDdlIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+GGojBAAAAFxJREFUeNqEkFEKwCAMQ6MInsVr7P5nSiYVVjer+2kgrwnVVNsFoEB9IgOTdFOROQQRm81Xp/JghZ8ATYifMhc91VrYKWcscc9oV0THHzs3Kx7XEvBvVfyGW4ABADeWHuXVd9PuAAAAAElFTkSuQmCC);
+  }
+  .page-header-top {
+    height: 58px;
+  }
+  .page-header .page-header-top .page-logo {
+    float: left;
+    display: block;
+    width: 203px;
+    height: 58px;
   }
 }
