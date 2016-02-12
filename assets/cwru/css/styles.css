@@ -115,15 +115,15 @@ Page Header Menu Arrow
   width: 20px;
   text-align: center;
   display: inline;
-  font-size: 16px;
+  font-size: 18px;
   font-family: FontAwesome;
   height: auto;
   content: "\f107";
-  font-weight: 300;
+  font-weight: 400;
   text-shadow: none;
   position: absolute;
-  top: 24px;
-  right: 5px; 
+  top: 26px;
+  right: 17px; 
 }
 /***
 .page-header-menu .menu-dropdown:hover a > .arrow:before {

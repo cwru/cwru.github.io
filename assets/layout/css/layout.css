@@ -437,7 +437,7 @@ Page Header
                     display: block;
                     white-space: normal;
                     font-family: "Titillium Web", Helvetica, Arial, sans-serif;
-                    padding: 7px;
+                    padding: 10px;
                     margin: 0;
                     font-size: 16px;
                     font-weight: 400; }
@@ -460,9 +460,9 @@ Page Header
         .page-header .page-header-menu .hor-menu .navbar-nav > li.menu-dropdown .dropdown-menu:after, .page-header .page-header-menu .hor-menu .navbar-nav > li.menu-dropdown .dropdown-menu:before {
           display: none !important; }
         .page-header .page-header-menu .hor-menu .navbar-nav > li > a {
-          font-size: 20px;
-          font-weight: 400;
-          padding: 24px 30px 23px 21px; }
+          font-size: 18px;
+          font-weight: 600;
+          padding: 24px 46px 23px 21px; }
           .page-header .page-header-menu .hor-menu .navbar-nav > li > a:focus {
             background: none !important; }
         .page-header .page-header-menu .hor-menu .navbar-nav > li.current .selected, .page-header .page-header-menu .hor-menu .navbar-nav > li.active .selected {
@@ -485,7 +485,7 @@ Page Header
             font-family: "Titillium Web", Helvetica, Arial, sans-serif;
             font-size: 16px;
             font-weight: 400;
-            padding: 10px 12px;
+            padding: 13px 12px;
             white-space: normal; }
             .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li > a .label,
             .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-menu li > a .badge {
