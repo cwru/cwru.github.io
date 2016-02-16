@@ -4,9 +4,9 @@ Core script to handle the entire theme and core functions
 
 var Layout = function () {
 
-    var layoutImgPath = 'layouts/layout3/img/';
+    var layoutImgPath = 'layout/img/';
 
-    var layoutCssPath = 'layouts/layout3/css/';
+    var layoutCssPath = 'layout/css/';
 
     var resBreakpointMd = App.getResponsiveBreakpoint('md');
 
@@ -27,7 +27,7 @@ var Layout = function () {
         });
 
         // handle hor menu search form on enter press
-        $('.page-header').on('keypress', '.hor-menu .search-form .form-control', function (e) {
+        $('.page-header').on('keypress', '.page-header .search-form .form-control', function (e) {
             if (e.which == 13) {
                 $(this).closest('.search-form').submit();
                 return false;
@@ -42,7 +42,7 @@ var Layout = function () {
         });
 
         // handle scrolling to top on responsive menu toggler click when header is fixed for mobile view
-        $('body').on('click', '.page-header-top-fixed .page-header-top .menu-toggler', function(){
+        $('body').on('click', '.page-header-top-fixed .menu-toggler', function(){
             App.scrollTop();
         });     
     };

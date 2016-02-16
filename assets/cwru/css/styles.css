@@ -19,7 +19,7 @@ Page Header
   font-weight: bold;
 }
 .page-head .inputs {
-  padding-top: 27px;
+  padding-top: 50px;
 }
 .site-name-alt .page-head .inputs {
   padding-top: 42px;
@@ -149,6 +149,16 @@ Page Header Menu Arrow
 .page-header-menu.page-header-menu-hover-submenu li:hover > a > .arrow:before {
   display: none;
 }
+.menu-toggler {
+    float: left;
+    display: none;
+    margin: 23px 3px 0 13px;
+    width: 40px;
+    height: 30px;
+    background: url(../img/menu-toggler.png) center center;
+    background-repeat: no-repeat;
+}
+
 /***
 Page Body
 ***/
@@ -196,6 +206,33 @@ Mobile/Tablet Menu
   .page-header .page-header-menu .hor-menu .navbar-nav>li.menu-dropdown-button-dark>a:hover {
     background-color: #c6c6c6 !important;
   }
+  .page-header .page-header-top .page-logo,
+  .page-head .page-title {
+    margin-left: 22px !important;
+    margin-right: 22px;
+  }
+  .page-head .dept-title {
+    margin-left: 0px !important;
+  }
+  .dept-title h2 {
+      font-size: 18px;
+      padding-left: 22px;
+  }
+  .page-head .page-title > h1,
+  .site-name-alt .page-head .page-title > h1 {
+      font-size: 30px;
+  }
+  .dept-title {
+      padding-top: 7px !important;
+      padding-bottom: 7px !important;
+      min-width: 100%;
+  }
+  .page-header .page-header-menu {
+    padding-top: 0px;
+  }
+  .menu-toggler {
+      display: block;
+  }
 }
 @media (max-width: 767px) {
   .page-header .page-header-top {
@@ -210,4 +247,7 @@ Mobile/Tablet Menu
     width: 203px;
     height: 58px;
   }
+}
+@media (max-width: 479px) {
+
 }

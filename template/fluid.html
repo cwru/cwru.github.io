@@ -42,7 +42,7 @@
         </script>
         <![endif]-->
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
-        <link href="//fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link href="http://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -74,14 +74,12 @@
                 <div class="container">
                     <!-- BEGIN LOGO -->
                     <div class="page-logo">
-                        <a href="index.html">
-                            <img src="../assets/cwru/img/logo-default.png" alt="logo" class="logo-default" title="Case Western Reserve University">
+                        <a href="main.html">
+                            <img src="../assets/cwru/img/logo-default.png" alt="CWRU Logo" class="logo-default visible-sm-block visible-md-block visible-lg-block" title="Case Western Reserve University">
+                            <img src="../assets/cwru/img/logo-small.png" alt="CWRU Logo" class="logo-default visible-xs-block" title="Case Western Reserve University" aria-hidden="true">
                         </a>
                     </div>
                     <!-- END LOGO -->
-                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
-                    <a href="javascript:;" class="menu-toggler"></a>
-                    <!-- END RESPONSIVE MENU TOGGLER -->
                 </div>
             </div>
             <!-- END HEADER TOP -->
@@ -98,13 +96,18 @@
                         </a>
                         <!-- END PAGE TITLE -->
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 hidden-xs hidden-sm">
                             <div class="inputs pull-right">
-                                <div class="portlet-input input-inline input-large">
-                                    <div class="input-icon right">
-                                        <i class="icon-magnifier"></i>
-                                        <input type="text" class="form-control form-control-solid input-circle" placeholder="Search"> </div>
+                            <form class="search-form" action="fluid.html" method="GET">
+                                <div class="input-group">
+                                        <input type="text" class="form-control input-circle" placeholder="Search...">
+                                        <span class="input-group-btn">
+                                            <a href="javascript:;" class="btn submit">
+                                                <i class="icon-magnifier"></i>
+                                            </a>
+                                        </span>
                                 </div>
+                            </form>
                             </div>
                         </div>
 
@@ -120,6 +123,11 @@
                     </div>
                 </div>
                 <!-- END PAGE HEAD-->
+
+                <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                <a href="javascript:;" class="menu-toggler" role="navigation" title="Navigation & Search"><i class="fa fa-bars"></i>Navigation + Search</a>
+                <!-- END RESPONSIVE MENU TOGGLER -->
+
             <!-- BEGIN HEADER MENU -->
             <div class="page-header-menu">
                 <div class="container">

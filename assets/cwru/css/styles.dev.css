@@ -19,7 +19,7 @@ Page Header
   font-weight: bold;
 }
 .page-head .inputs {
-  padding-top: 27px;
+  padding-top: 50px;
 }
 .site-name-alt .page-head .inputs {
   padding-top: 42px;
@@ -149,6 +149,70 @@ Page Header Menu Arrow
 .page-header-menu.page-header-menu-hover-submenu li:hover > a > .arrow:before {
   display: none;
 }
+.menu-toggler {
+  float: left;
+  display: none;
+  width: 100%;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-color: #dedede;
+  border: 8px solid #f5f5f5;
+  border-bottom: 0;
+  overflow: hidden;
+}
+
+a.menu-toggler,
+a:hover.menu-toggler,
+a:link.menu-toggler,
+a:active.menu-toggler,
+a:visited.menu-toggler {
+  text-decoration: none !important;
+  line-height: 48px;
+  font-size: 24px;
+  color: #0a304e;
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+a.menu-toggler > i {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.page-head .search-form {
+  width: 230px;
+  display: inline-block;
+  transition: width 0.4s;
+}
+.page-head .search-form .form-control:hover {
+  cursor: pointer;
+}
+.page-head .search-form.open {
+  width: 300px !important;
+  transition: width 0.4s;
+}
+.page-head .search-form.open .form-control:hover {
+  cursor: text;
+}
+.page-head .search-form .input-group-btn .btn.submit {
+  padding: 0;
+  height: 34px;
+  z-index: 3;
+  position: relative;
+  top: 8px;
+  right: 24px;
+}
+.page-head .search-form .input-group-btn .btn.submit > i {
+  font-size: 15px;
+}
+.page-head .search-form.open .input-group-btn .btn.submit {
+  margin-left: 0;
+}
+.page-head .search-form .form-control {
+  padding-right: 0 !important;
+}
+.page-head .search-form .input-group-btn .btn.submit > i {
+  color: #0a304e;
+}
 /***
 Page Body
 ***/
@@ -196,6 +260,46 @@ Mobile/Tablet Menu
   .page-header .page-header-menu .hor-menu .navbar-nav>li.menu-dropdown-button-dark>a:hover {
     background-color: #c6c6c6 !important;
   }
+  .page-header .page-header-top .page-logo,
+  .page-head .page-title {
+    margin-left: 22px !important;
+    margin-right: 22px;
+  }
+  .page-head .page-title {
+        padding: 16px 0;
+  }
+  .page-head .dept-title {
+    margin-left: 0px !important;
+  }
+  .dept-title h2 {
+      padding-left: 20px;
+      font-size: 18px;
+  }
+  .page-head .page-title > h1,
+  .site-name-alt .page-head .page-title > h1 {
+      font-size: 30px;
+  }
+  .dept-title {
+      padding-top: 7px !important;
+      padding-bottom: 7px !important;
+      min-width: 100%;
+  }
+  .page-header .page-header-menu {
+    padding-top: 0px;
+  }
+  .menu-toggler {
+      display: block;
+  }
+  .page-head {
+      border-bottom: 0px;
+  }
+  .page-header-menu {
+      border: 8px solid #f5f5f5;
+      border-top: 0;
+      border-bottom: 0;
+  }
+
+
 }
 @media (max-width: 767px) {
   .page-header .page-header-top {
@@ -210,4 +314,7 @@ Mobile/Tablet Menu
     width: 203px;
     height: 58px;
   }
+}
+@media (max-width: 479px) {
+
 }
