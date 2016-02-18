@@ -496,7 +496,7 @@ Page Header
         .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-submenu > .dropdown-menu {
           top: 0; }
         .page-header .page-header-menu .hor-menu .navbar-nav > li .dropdown-submenu > a:after {
-          top: 9px;
+          top: 13px;
           right: 10px; }
     .page-header .page-header-menu .search-form {
       position: relative;
